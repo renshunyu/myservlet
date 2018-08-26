@@ -8,10 +8,9 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<% Student student = new Student();
-    student.setName(request.getParameter("name"));
-    student.setAge(Integer.valueOf(request.getParameter("age")));
-    student.setAddress(request.getParameter("address"));
+<jsp:useBean id="student" class="com.rensy.studentmanage.model.Student"></jsp:useBean>
+<jsp:setProperty name="student" property="*"></jsp:setProperty>
+<%
     List list;
     if (application.getAttribute("students") != null){
     list = (List) application.getAttribute("students");
@@ -20,6 +19,5 @@
     }
     list.add(student);
     application.setAttribute("students", list);
-    response.sendRedirect("list.jsp");
 %>
-
+<jsp:forward page="list.jsp"></jsp:forward>
