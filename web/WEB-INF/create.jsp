@@ -12,7 +12,7 @@
     <title>新增</title>
 </head>
 <body>
-<form action="insert.jsp" method="post">
+<form action="/test/insert" method="post">
     name:<input name="name"><br>
     age:<input name="age"><br>
     address:<input name="address"><br>

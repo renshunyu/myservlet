@@ -19,4 +19,12 @@
         <servlet-name>second</servlet-name>
         <url-pattern>/second</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>insert</servlet-name>
+        <servlet-class>com.rensy.myservlet.InsertAndQueryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>insert</servlet-name>
+        <url-pattern>/insert</url-pattern>
+    </servlet-mapping>
 </web-app>

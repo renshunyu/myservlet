@@ -7,7 +7,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%List<Student> list =(List) application.getAttribute("students");
+<%List<Student> list =(List) request.getAttribute("list");
 %>
 
 <html>
