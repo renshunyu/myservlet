@@ -1,3 +1,4 @@
+<jsp:include page="common.jsp"></jsp:include>
 <%--
   Created by IntelliJ IDEA.
   User: renshunyu
