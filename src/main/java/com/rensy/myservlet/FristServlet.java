@@ -17,6 +17,7 @@ public class FristServlet extends HttpServlet {
         try {
             PrintWriter out = rep.getWriter();
             out.println("this is a get request!");
+            out.println("通过过滤器设置汉字编码！界面的不在显示汉字乱码！");
             out.close();
         } catch (IOException e) {
             e.printStackTrace();
