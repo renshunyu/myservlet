@@ -16,9 +16,14 @@ public class LoginFilter implements Filter {
 
         HttpServletRequest httpServletRequest = (HttpServletRequest) servletRequest;
         HttpServletResponse httpServletResponse = (HttpServletResponse) servletResponse;
-        if (httpServletRequest.getSession().getAttribute("user") != null || httpServletRequest.getRequestURI() == "/test/login.jsp" || httpServletRequest.getMethod()=="POST") {
+        System.out.println(httpServletRequest.getSession().getAttribute("user") != null);
+        System.out.println(httpServletRequest.getRequestURI() == "/test/login.jsp");
+        System.out.println(httpServletRequest.getRequestURI() == "/test/login");
+        System.out.println(httpServletRequest.getSession().getAttribute("user") != null || httpServletRequest.getRequestURI().equals("/test/login.jsp") || httpServletRequest.getRequestURI().equals("/test/login"));
+        if (httpServletRequest.getSession().getAttribute("user") != null || httpServletRequest.getRequestURI().equals("/test/login.jsp") || httpServletRequest.getRequestURI().equals("/test/login")) {
             filterChain.doFilter(servletRequest, servletResponse);
         } else {
+            System.out.println("假");
             httpServletResponse.sendRedirect("/test/login.jsp");
         }
 
