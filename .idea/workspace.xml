@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db41e5af-d6be-4ec1-b840-837efcfca847" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/rensy/filters/LoginFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/rensy/filters/LoginFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -982,7 +979,7 @@
       <workItem from="1535288108584" duration="6679000" />
       <workItem from="1535297845611" duration="984000" />
       <workItem from="1535343668312" duration="5866000" />
-      <workItem from="1535375843362" duration="1941000" />
+      <workItem from="1535375843362" duration="2364000" />
     </task>
     <task id="LOCAL-00001" summary="练习javabean">
       <created>1535289046846</created>
@@ -1012,11 +1009,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535368078398</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="登录拦截器测试成功">
+      <created>1535377896093</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535377896093</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34010000" />
+    <option name="totallyTimeSpent" value="34433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1065,7 +1069,8 @@
     <MESSAGE value="第一次测试model2模式" />
     <MESSAGE value="jsp模板的动态引用和静态引用" />
     <MESSAGE value="拦截器设置编码" />
-    <option name="LAST_COMMIT_MESSAGE" value="拦截器设置编码" />
+    <MESSAGE value="登录拦截器测试成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录拦截器测试成功" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
